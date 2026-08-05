@@ -1,21 +1,20 @@
 # Job Portal Management System
 
-A simple Job Portal Management System developed using **Python, Flask, SQLite, HTML, CSS, and JavaScript**.
+A Job Portal Management System developed using **Python, Flask, SQLite, HTML, CSS, and JavaScript**.
 
-The application allows users to browse jobs, search for jobs, apply for available positions, and manage their job applications.
+The application allows users to browse available jobs, search for jobs, apply for positions, view their applications, and delete previously submitted applications.
 
 ---
 
 ## Features
 
-- User-friendly interface
 - View all available jobs
-- Search jobs by title or company
+- Search jobs
 - Apply for jobs
 - View applied jobs
 - Delete job applications
 - SQLite database integration
-- Responsive UI
+- Responsive user interface
 - Dark / Light Theme
 
 ---
@@ -58,31 +57,35 @@ Job-Portal/
 
 ## Installation
 
-Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-Move into the project
-
-```bash
-cd Job-Portal
-```
-
-Install dependencies
+Install Flask
 
 ```bash
 pip install flask
 ```
 
-Run the application
+---
+
+## Running the Project
+
+### Step 1
+
+Open the project folder in VS Code.
+
+### Step 2
+
+Open Terminal.
+
+### Step 3
+
+Run the application.
 
 ```bash
 python app.py
 ```
 
-Open your browser
+### Step 4
+
+Open your browser and visit
 
 ```
 http://127.0.0.1:5000
@@ -107,27 +110,9 @@ Tables
 
 - View available jobs
 - Search jobs
-- Job details
+- Apply for jobs
 
 ### Applications
 
-- Apply for a job
 - View applied jobs
 - Delete applications
-
----
-
-## Future Enhancements
-
-- User Authentication
-- Resume Upload
-- Company Dashboard
-- Email Notifications
-- Job Categories
-- Admin Panel
-
----
-
-## Author
-
-Developed using Flask & SQLite.
